@@ -22,6 +22,8 @@ public class ItemController {
 	@Autowired
 	private ItemService itemService;
 	
+	//为了后续测试,观察是那一台服务器执行
+	//把yml配置的端口号注入进来
 	@Value("${server.port}")
 	private int port;
 	
