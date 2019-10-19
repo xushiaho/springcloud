@@ -15,7 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Order {
-    private Integer id;
+    private String id;
     private User user;
     private List<Item> items;
 }
