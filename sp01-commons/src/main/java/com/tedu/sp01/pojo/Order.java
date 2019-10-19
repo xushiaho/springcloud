@@ -1,21 +1,16 @@
 package com.tedu.sp01.pojo;
 
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
-/**
- * @program: springcloud
- * @author: 许仕昊
- * @create: 2019-10-19 14:38
- **/
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class Order {
-    private String id;
-    private User user;
-    private List<Item> items;
+	private String id;
+	private User user;
+	private List<Item> items;
 }

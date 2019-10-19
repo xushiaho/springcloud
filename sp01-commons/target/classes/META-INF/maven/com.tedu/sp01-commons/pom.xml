@@ -4,7 +4,7 @@
   <artifactId>sp01-commons</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>sp01-commons</name>
-<dependencies>
+  <dependencies>
 		<dependency>
 			<groupId>com.fasterxml.jackson.module</groupId>
 			<artifactId>jackson-module-parameter-names</artifactId>
